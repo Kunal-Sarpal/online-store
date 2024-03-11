@@ -19,7 +19,7 @@ function Services() {
         </div>
       ) : (
         <div className="flex border-2m-auto">
-          <div className="p- m-3 flex flex-wrap justify-start">
+          <div className="p- m-1 flex flex-wrap justify-start">
             {data.map((item, index) => (
               <div
                 key={index}
